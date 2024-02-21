@@ -8,3 +8,14 @@ button{
     font-size: larger; 
     color: #6F17EB;
 }
+
+.phone-list{
+    padding-left: 7%;
+    font-size: large;
+}
+
+.new-product{
+    color:#6F17EB;
+    text-align: center;
+    font-weight: bold;
+}
