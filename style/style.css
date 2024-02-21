@@ -1,0 +1,10 @@
+body{
+    background-color:whitesmoke;
+}
+
+button{
+    border-radius:8px; 
+    border-color: #27ae60; 
+    font-size: larger; 
+    color: #6F17EB;
+}
