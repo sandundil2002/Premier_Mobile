@@ -43,8 +43,8 @@ button{
 }
 
 .table{
-    width: 100%;
-    padding-left: 1%;
+    width: 80%;
+    padding-left: 16%;
     font-size: larger;
     text-align: center;
     background-color:whitesmoke;
@@ -52,6 +52,7 @@ button{
 
 th,td{
     border:3px solid black;
+    width: 1%;
 }
 
 .open{
@@ -60,7 +61,16 @@ th,td{
     display: inline;
 }
 
-.close{
-    width: 30%;
-    padding-left: 35%;
+.contact-img{
+    width: 8%;
+    padding-left: 60%;
+}
+
+.contact-td{
+    border: 1px solid black;
+    font-size: larger;
+}
+
+.copyright{
+    text-align: center;
 }
