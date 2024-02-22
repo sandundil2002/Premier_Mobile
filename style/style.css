@@ -20,7 +20,7 @@ button{
     font-weight: bold;
 }
 
-.about-us{
+.title{
     color:cornflowerblue;
     text-align: center;
     font-weight: bold;
@@ -36,4 +36,31 @@ button{
     padding-left: 7%;
     padding-right: 6%;
     font-size: large;
+}
+
+.open{
+    padding-left: 29%;    
+}
+
+.table{
+    width: 100%;
+    padding-left: 1%;
+    font-size: larger;
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+th,td{
+    border:3px solid black;
+}
+
+.open{
+    padding-left: 35%;
+    width: 30%;
+    display: inline;
+}
+
+.close{
+    width: 30%;
+    padding-left: 35%;
 }
