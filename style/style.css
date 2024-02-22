@@ -15,7 +15,25 @@ button{
 }
 
 .new-product{
-    color:#6F17EB;
+    color:cornflowerblue;
     text-align: center;
     font-weight: bold;
+}
+
+.about-us{
+    color:cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo{
+    padding-left: 30%;
+    width: 45%;
+    border-radius: 30pc;
+}
+
+.paragraph{
+    padding-left: 7%;
+    padding-right: 6%;
+    font-size: large;
 }
