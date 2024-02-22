@@ -38,16 +38,12 @@ button{
     font-size: large;
 }
 
-.new-product{
-    color:cornflowerblue;
-    text-align: center;
-    font-weight: bold;
-}
 
 .sub-title{
     color:cornflowerblue;
     text-align: center;
     font-weight: bold;
+    font-size: 40pt;
 }
 
 .logo{
@@ -105,5 +101,5 @@ th,td{
 }
 
 .buy{
-    padding-left: 33%;
+    padding-left: 35%;
 }

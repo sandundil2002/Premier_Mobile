@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+    font-size: xx-large;
+    background-color: whitesmoke;
+}
+
+.video{
+    width: 22%;
+    float: left;
+}
+
+.specification{
+    padding-left: 27%;
+    font-size: large;
+}
