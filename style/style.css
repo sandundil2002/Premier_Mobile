@@ -2,11 +2,35 @@ body{
     background-color:whitesmoke;
 }
 
+.main-title{
+    display: inline; color: rgb(65, 105, 225); 
+    font-size: 40pt;
+}
+
 button{
     border-radius:8px; 
     border-color: #27ae60; 
     font-size: larger; 
     color: #6F17EB;
+}
+
+.keys{
+    text-align:right;
+     display: inline;
+}
+
+.empty{
+    background-color:darkgray;
+    color: darkgray;
+}
+
+.discount{
+    width: 40%;
+    float: right;
+}
+
+.price{
+    font-size: 40pt;
 }
 
 .phone-list{
@@ -20,7 +44,7 @@ button{
     font-weight: bold;
 }
 
-.title{
+.sub-title{
     color:cornflowerblue;
     text-align: center;
     font-weight: bold;
@@ -73,4 +97,13 @@ th,td{
 
 .copyright{
     text-align: center;
+}
+
+.shop{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.buy{
+    padding-left: 33%;
 }
