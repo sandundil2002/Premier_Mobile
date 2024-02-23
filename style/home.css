@@ -89,6 +89,7 @@ th,td{
 .contact-td{
     border: 1px solid black;
     font-size: larger;
+    text-align: left;
 }
 
 .copyright{
@@ -102,4 +103,19 @@ th,td{
 
 .buy{
     padding-left: 35%;
+}
+
+.social{
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.input{
+    width: 40%;
+    text-align: center;
+}
+
+.intable{
+    padding-left: 24%;
 }
