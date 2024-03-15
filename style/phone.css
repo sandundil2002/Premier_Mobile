@@ -1,7 +1,12 @@
 .title{
     text-align: center;
     font-size: xx-large;
-    background-color: whitesmoke;
+    background-color: cornflowerblue;
+        color: brown;
+    }
+    
+    body {
+        background-color: darkgrey;
 }
 
 .video{

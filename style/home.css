@@ -1,5 +1,9 @@
 body{
-    background-color:whitesmoke;
+    background-color: whitesmoke;
+}
+    
+.top-bar {
+    position: sticky;
 }
 
 .main-title{
@@ -16,7 +20,7 @@ button{
 
 .keys{
     text-align:right;
-     display: inline;
+    display: inline;
 }
 
 .empty{
@@ -56,6 +60,16 @@ button{
     padding-left: 7%;
     padding-right: 6%;
     font-size: large;
+}
+
+.paragraph::before {
+    content: "Welcome";
+    color: #6F17EB;
+}
+
+.paragraph::first-letter {
+    font-size: 50px;
+    color: #6F17EB;
 }
 
 .open{
