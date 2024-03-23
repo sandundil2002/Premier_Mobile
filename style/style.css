@@ -1,62 +1,84 @@
-body{
-    background-color: whitesmoke;
-}
-    
-.top-bar {
-    position: sticky;
+body {
+    background-color: #F8F1E8;
 }
 
-.main-title{
-    display: inline; color: rgb(65, 105, 225); 
+.main-title {
+    display: inline;
+    color: rgb(65, 105, 225);
     font-size: 40pt;
 }
 
-button{
-    border-radius:8px; 
-    border-color: #27ae60; 
-    font-size: larger; 
+button {
+    border-radius: 8px;
+    border-color: #27ae60;
+    font-size: larger;
     color: #6F17EB;
 }
 
-.keys{
-    text-align:right;
+.shop-btn {
+    text-decoration: none;
+}
+
+.shop-btn:hover {
+    background-color: #00ff6a;
+}
+
+.keys {
+    text-align: right;
     display: inline;
 }
 
-.empty{
-    background-color:darkgray;
+.nav-bar {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.nav-bar:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.empty {
+    background-color: darkgray;
     color: darkgray;
 }
 
-.discount{
+.discount {
     width: 40%;
     float: right;
 }
 
-.price{
+.discount:hover {
+    width: 45%;
+}
+
+.price {
     font-size: 40pt;
 }
 
-.phone-list{
+.phone-list {
     padding-left: 7%;
     font-size: large;
 }
 
 
-.sub-title{
-    color:cornflowerblue;
+.sub-title {
+    color: cornflowerblue;
     text-align: center;
     font-weight: bold;
     font-size: 40pt;
 }
 
-.logo{
+.logo {
     padding-left: 30%;
     width: 45%;
     border-radius: 30pc;
 }
 
-.paragraph{
+.paragraph {
     padding-left: 7%;
     padding-right: 6%;
     font-size: large;
@@ -72,64 +94,65 @@ button{
     color: #6F17EB;
 }
 
-.open{
-    padding-left: 29%;    
+.open {
+    padding-left: 29%;
 }
 
-.table{
+.table {
     width: 80%;
     padding-left: 16%;
     font-size: larger;
     text-align: center;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 
-th,td{
-    border:3px solid black;
+th,
+td {
+    border: 3px solid black;
     width: 1%;
 }
 
-.open{
+.open {
     padding-left: 35%;
     width: 30%;
     display: inline;
 }
 
-.contact-img{
+.contact-img {
     width: 8%;
     padding-left: 60%;
 }
 
-.contact-td{
+.contact-td {
     border: 1px solid black;
     font-size: larger;
     text-align: left;
 }
 
-.copyright{
+.copyright {
     text-align: center;
 }
 
-.shop{
+.shop {
     width: 80%;
     padding-left: 10%;
 }
 
-.buy{
+.buy {
     padding-left: 35%;
 }
 
-.social{
+.social {
     font-size: 50px;
     text-align: center;
     color: blueviolet;
 }
 
-.input{
+.input {
     width: 40%;
     text-align: center;
 }
 
-.intable{
+.intable {
     padding-left: 24%;
 }
