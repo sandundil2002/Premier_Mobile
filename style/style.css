@@ -1,11 +1,36 @@
 body {
     background-color: #F8F1E8;
+    margin: 0;
 }
 
-.main-title {
-    display: inline;
-    color: rgb(65, 105, 225);
-    font-size: 40pt;
+#welcome {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: yellowgreen;
+    padding-left: 3%;
+    color: blue;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.nav-btn {
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.nav-btn:hover {
+    text-decoration: underline;
+    color: blue;
 }
 
 button {
@@ -17,33 +42,24 @@ button {
 
 .shop-btn {
     text-decoration: none;
+    border-radius: 15px;
 }
 
 .shop-btn:hover {
-    background-color: #00ff6a;
+    background-color: yellowgreen;
 }
-
-.keys {
-    text-align: right;
-    display: inline;
-}
-
-.nav-bar {
-    text-decoration: none;
-    padding-left: 10px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.nav-bar:hover {
-    color: black;
-    text-decoration: underline;
-}
-
 
 .empty {
-    background-color: darkgray;
-    color: darkgray;
+    background-color: black;
+    color: black;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.carousel>h2 {
+    color: white;
 }
 
 .discount {
@@ -51,19 +67,15 @@ button {
     float: right;
 }
 
-.discount:hover {
-    width: 45%;
-}
-
 .price {
     font-size: 40pt;
+    color: yellowgreen;
 }
 
 .phone-list {
     padding-left: 7%;
     font-size: large;
 }
-
 
 .sub-title {
     color: cornflowerblue;
