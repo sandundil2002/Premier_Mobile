@@ -14,6 +14,10 @@ body {
     background-color: yellowgreen;
     padding-left: 3%;
     color: blue;
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
 }
 
 .keys {
@@ -72,6 +76,37 @@ button {
     color: yellowgreen;
 }
 
+.chat-bot-bar {
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.chat-bot {
+    background-color: yellowgreen;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 10%;
+}
+
+#contact-chat {
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#bot {
+    text-decoration: none;
+    color: white;
+    margin-top: 8%;
+    margin-left: 50%;
+    font-weight: 500;
+}
+
+#bot:hover {
+    font-size: 25px;
+    color: black;
+}
 .phone-list {
     padding-left: 7%;
     font-size: large;
