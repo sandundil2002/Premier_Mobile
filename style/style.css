@@ -15,7 +15,7 @@ body {
     padding-left: 3%;
     color: blue;
     position: fixed;
-        top: 0;
+    top: 0;
         left: 0;
         width: 100%;
 }
@@ -96,27 +96,62 @@ button {
 }
 
 #bot {
-    text-decoration: none;
     color: white;
+    background-color: yellowgreen;
+        border: 2px solid white;
+        border-radius: 20px;
     margin-top: 8%;
     margin-left: 50%;
     font-weight: 500;
+    font-size: 25px;
 }
 
 #bot:hover {
-    font-size: 25px;
-    color: black;
+    color: yellowgreen;
+        background-color: white;
 }
+
 .phone-list {
     padding-left: 7%;
     font-size: large;
 }
 
 .sub-title {
-    color: cornflowerblue;
+    display: flex;
     text-align: center;
     font-weight: bold;
-    font-size: 40pt;
+    font-size: 40px;
+    }
+    
+    .first-sub-title {
+        margin: 0;
+        font-size: 50px;
+        color: black;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .second-sub-title {
+        margin-left: 10px;
+        color: yellowgreen;
+    }
+    
+    .items {
+        width: 400px;
+        margin-top: -70px;
+    }
+    
+    .item-card {
+        margin-left: 60px;
+        width: 380px;
+        height: 400px;
+        background-color: rgb(194, 194, 194);
+        border: 1px solid rgb(194, 194, 194);
+        border-radius: 10px;
+    }
+    
+    .item-title {
+        text-align: center;
 }
 
 .logo {
@@ -180,11 +215,6 @@ td {
     text-align: center;
 }
 
-.shop {
-    width: 80%;
-    padding-left: 10%;
-}
-
 .buy {
     padding-left: 35%;
 }
@@ -202,4 +232,7 @@ td {
 
 .intable {
     padding-left: 24%;
+}
+.shop {
+    width: 400px;
 }
