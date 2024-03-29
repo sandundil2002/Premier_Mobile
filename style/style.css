@@ -189,6 +189,11 @@ button {
     border-radius: 4px;
 }
 
+.item-btn:hover{
+    color: #007bff;
+    background-color: white;
+}
+
 .logo {
     padding-left: 30%;
     width: 45%;
