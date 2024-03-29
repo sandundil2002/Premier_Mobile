@@ -239,15 +239,62 @@ td {
     display: inline;
 }
 
+.contact{
+    background-color: yellowgreen;
+    width: 1200px;
+    height: 480px;
+    border-radius: 10px;
+    margin-left: 12%;
+}
+
+.input-container{
+    padding-top: 5%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.input-data{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+}
+
+#message{
+    border-radius: 20px;
+    margin: 40px 150px;
+    text-align: center;
+}
+
+#submit-btn{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: yellowgreen;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 43%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#submit-btn:hover {
+    color: yellowgreen;
+    background-color: white;
+}
+
 .contact-img {
-    width: 8%;
-    padding-left: 60%;
+    width: 20%;
+    padding-left: 10%;
 }
 
 .contact-td {
-    border: 1px solid black;
+    border: 1px solid greenyellow;
     font-size: larger;
-    text-align: left;
+    text-align: center;
 }
 
 .copyright {
@@ -261,9 +308,10 @@ td {
 }
 
 .social {
-    font-size: 50px;
+    border: 1px solid greenyellow;
+    font-size: 80px;
     text-align: center;
-    color: blueviolet;
+    color: #007bff;
 }
 
 .input {
@@ -271,8 +319,9 @@ td {
     text-align: center;
 }
 
-.intable {
-    padding-left: 24%;
+.bottom-bar{
+    background-color: black;
+    color: white;
 }
 
 .shop {
