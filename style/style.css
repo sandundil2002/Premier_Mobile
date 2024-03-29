@@ -130,9 +130,9 @@ button {
 }
 
 .item-container{
-    padding-left: 30px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item {
