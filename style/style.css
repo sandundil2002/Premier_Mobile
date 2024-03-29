@@ -116,13 +116,6 @@ button {
     font-size: large;
 }
 
-.sub-title {
-    display: flex;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-}
-
 .first-sub-title {
     margin: 0;
     font-size: 50px;
@@ -194,9 +187,13 @@ button {
     background-color: white;
 }
 
+.about{
+    background-image: url("/assets/images/about\ background.png");
+}
+
 .logo {
-    padding-left: 30%;
-    width: 45%;
+    padding-left: 80%;
+    width: 20%;
     border-radius: 30pc;
 }
 
@@ -204,16 +201,18 @@ button {
     padding-left: 7%;
     padding-right: 6%;
     font-size: large;
+    font-weight: 550;
+    color: black;
 }
 
 .paragraph::before {
     content: "Welcome";
-    color: #6F17EB;
+    color: greenyellow;
 }
 
 .paragraph::first-letter {
     font-size: 50px;
-    color: #6F17EB;
+    color: greenyellow;
 }
 
 .open {
@@ -222,10 +221,10 @@ button {
 
 .table {
     width: 80%;
-    padding-left: 16%;
+    margin-left: 150px;
     font-size: larger;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #bbb7b7;
 }
 
 th,
@@ -253,6 +252,8 @@ td {
 
 .copyright {
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .buy {
