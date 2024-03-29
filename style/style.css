@@ -16,8 +16,8 @@ body {
     color: blue;
     position: fixed;
     top: 0;
-        left: 0;
-        width: 100%;
+    left: 0;
+    width: 100%;
 }
 
 .keys {
@@ -98,8 +98,8 @@ button {
 #bot {
     color: white;
     background-color: yellowgreen;
-        border: 2px solid white;
-        border-radius: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
     margin-top: 8%;
     margin-left: 50%;
     font-weight: 500;
@@ -108,7 +108,7 @@ button {
 
 #bot:hover {
     color: yellowgreen;
-        background-color: white;
+    background-color: white;
 }
 
 .phone-list {
@@ -121,37 +121,72 @@ button {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
-    }
-    
-    .first-sub-title {
-        margin: 0;
-        font-size: 50px;
-        color: black;
-        font-weight: 800;
-        text-align: center;
-    }
-    
-    .second-sub-title {
-        margin-left: 10px;
-        color: yellowgreen;
-    }
-    
-    .items {
-        width: 400px;
-        margin-top: -70px;
-    }
-    
-    .item-card {
-        margin-left: 60px;
-        width: 380px;
-        height: 400px;
-        background-color: rgb(194, 194, 194);
-        border: 1px solid rgb(194, 194, 194);
-        border-radius: 10px;
-    }
-    
-    .item-title {
-        text-align: center;
+}
+
+.first-sub-title {
+    margin: 0;
+    font-size: 50px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+}
+
+.second-sub-title {
+    margin-left: 10px;
+    color: yellowgreen;
+}
+
+.item-container{
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.item {
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 575px;
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+}
+
+.item-content {
+    background-color: #dbd8d8;
+    padding: 20px;
+}
+
+.item-title {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.item-text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.item-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 .logo {
@@ -233,6 +268,7 @@ td {
 .intable {
     padding-left: 24%;
 }
+
 .shop {
     width: 400px;
 }
