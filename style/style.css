@@ -55,6 +55,10 @@ body {
         margin-right: 7%;
         margin-top: 2%;
     }
+
+    .sub-titles {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -108,6 +112,10 @@ body {
         margin-right: 7%;
         margin-top: 2%;
     }
+
+    .sub-titles {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -158,6 +166,10 @@ body {
         margin-right: 7%;
         margin-top: 2%;
     }
+
+    .sub-titles {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -200,6 +212,10 @@ body {
         margin-right: 7%;
         margin-top: 2%;
     }
+
+    .sub-titles {
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -217,7 +233,8 @@ body {
     }
 
     #carousel-img {
-        width: 45%;
+        margin-top: -2%;
+        width: 35rem;
         float: right;
     }
 
@@ -241,6 +258,10 @@ body {
         font-size: 25px;
         margin-right: 7%;
         margin-top: 2%;
+    }
+
+    .sub-titles {
+        font-size: 30px;
     }
 }
 
@@ -358,7 +379,6 @@ button {
 
 .first-sub-title {
     margin: 0;
-    font-size: 50px;
     color: black;
     font-weight: 800;
     text-align: center;
@@ -374,6 +394,7 @@ button {
     margin-right: 5%;
     display: flex;
     flex-wrap: wrap;
+    gap: 3%;
 }
 
 .item {
@@ -383,7 +404,7 @@ button {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 0 auto;
     height: 575px;
 }
 
