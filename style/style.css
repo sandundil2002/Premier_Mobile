@@ -19,6 +19,24 @@ body {
         font-size: x-large;
         padding-left: 70%;
     }
+
+    #carousel-img {
+        width: 55%;
+        padding-top: 4%;
+        float: right;
+    }
+
+    .carousel {
+        margin-top: -12%;
+    }
+
+    #carousel-desc {
+        font-size: 9px;
+    }
+
+    .price {
+        font-size: 16pt;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -37,6 +55,23 @@ body {
         font-size: x-large;
         padding-left: 70%;
     }
+
+    #carousel-img {
+        width: 55%;
+        float: right;
+    }
+
+    .carousel {
+        margin-top: -7%;
+    }
+
+    #carousel-desc {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 23pt;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -51,6 +86,23 @@ body {
 
     #burger {
         display: none;
+    }
+
+    #carousel-img {
+        width: 50%;
+        float: right;
+    }
+
+    .carousel {
+        margin-top: -5%;
+    }
+
+    #carousel-desc {
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 30pt;
     }
 }
 
@@ -67,6 +119,15 @@ body {
     #burger {
         display: none;
     }
+
+    #carousel-img {
+        width: 55%;
+        float: right;
+    }
+
+    .price {
+        font-size: 35pt;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -82,13 +143,15 @@ body {
     #burger {
         display: none;
     }
-}
 
+    #carousel-img {
+        width: 45%;
+        float: right;
+    }
 
-#icon {
-    font-size: 100px;
-    color: green;
-    display: none;
+    .price {
+        font-size: 40pt;
+    }
 }
 
 #welcome {
@@ -98,7 +161,6 @@ body {
 .nav-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .nav-bar {
@@ -162,19 +224,11 @@ button {
     background-color: #333;
 }
 
-.carousel>h2 {
+.carousel>div>h2 {
     color: white;
 }
 
-.discount {
-    width: 40%;
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .price {
-    font-size: 40pt;
     color: yellowgreen;
 }
 
