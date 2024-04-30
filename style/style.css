@@ -12,6 +12,13 @@ body {
     .keys>a {
         display: none;
     }
+
+    #burger {
+        display: inline;
+        color: black;
+        font-size: x-large;
+        padding-left: 70%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -22,6 +29,13 @@ body {
 
     .keys>a {
         display: none;
+    }
+
+    #burger {
+        display: inline;
+        color: black;
+        font-size: x-large;
+        padding-left: 70%;
     }
 }
 
@@ -34,6 +48,10 @@ body {
     .nav-btn {
         font-size: 16px;
     }
+
+    #burger {
+        display: none;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -45,6 +63,10 @@ body {
     .nav-btn {
         font-size: 18px;
     }
+
+    #burger {
+        display: none;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -55,6 +77,10 @@ body {
 
     .nav-btn {
         font-size: 25px;
+    }
+
+    #burger {
+        display: none;
     }
 }
 
