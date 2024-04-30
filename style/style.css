@@ -37,6 +37,24 @@ body {
     .price {
         font-size: 16pt;
     }
+
+    .chat-bot-bar {
+        height: 80px;
+    }
+
+    .chat-bot {
+        font-size: 18px;
+    }
+
+    #contact-chat {
+        font-size: 11.5px;
+    }
+
+    #bot {
+        font-size: 15px;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -72,6 +90,24 @@ body {
     .price {
         font-size: 23pt;
     }
+
+    .chat-bot-bar {
+        height: 100px;
+    }
+
+    .chat-bot {
+        font-size: 23px;
+    }
+
+    #contact-chat {
+        font-size: 14px;
+    }
+
+    #bot {
+        font-size: 18px;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -104,6 +140,24 @@ body {
     .price {
         font-size: 30pt;
     }
+
+    .chat-bot-bar {
+        height: 120px;
+    }
+
+    .chat-bot {
+        font-size: 26px;
+    }
+
+    #contact-chat {
+        font-size: 18px;
+    }
+
+    #bot {
+        font-size: 20px;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -128,6 +182,24 @@ body {
     .price {
         font-size: 35pt;
     }
+
+    .chat-bot-bar {
+        height: 180px;
+    }
+
+    .chat-bot {
+        font-size: 40px;
+    }
+
+    #contact-chat {
+        font-size: 25px;
+    }
+
+    #bot {
+        font-size: 25px;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -151,6 +223,24 @@ body {
 
     .price {
         font-size: 40pt;
+    }
+
+    .chat-bot-bar {
+        height: 180px;
+    }
+
+    .chat-bot {
+        font-size: 40px;
+    }
+
+    #contact-chat {
+        font-size: 25px;
+    }
+
+    #bot {
+        font-size: 25px;
+        margin-right: 7%;
+        margin-top: 2%;
     }
 }
 
@@ -180,6 +270,7 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: space-evenly;
+    font-weight: 450;
 }
 
 .nav-btn {
@@ -233,34 +324,26 @@ button {
 }
 
 .chat-bot-bar {
-    width: 100%;
     background-color: yellowgreen;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .chat-bot {
-    background-color: yellowgreen;
     color: white;
-    font-size: 30px;
     font-weight: 100;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 #contact-chat {
-    font-size: 20px;
     margin-left: 2%;
 }
 
 #bot {
+    float: right;
     color: white;
     background-color: yellowgreen;
     border: 2px solid white;
     border-radius: 20px;
-    margin-top: 8%;
-    margin-left: 50%;
     font-weight: 500;
-    font-size: 25px;
 }
 
 #bot:hover {
