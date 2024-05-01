@@ -79,6 +79,22 @@ body {
         font-size: 16px;
         margin-top: 3%;
     }
+
+    .social {
+        font-size: 18px;
+    }
+
+    .contact-td {
+        font-size: 12px;
+    }
+
+    .copyright>h5 {
+        font-size: 10px;
+    }
+
+    .copyright>h4 {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -156,6 +172,22 @@ body {
         font-size: 18px;
         margin-top: 3%;
     }
+
+    .social {
+        font-size: 25px;
+    }
+
+    .contact-td {
+        font-size: 14px;
+    }
+
+    .copyright>h5 {
+        font-size: 12px;
+    }
+
+    .copyright>h4 {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -218,7 +250,7 @@ body {
         font-size: 17px;
     }
 
-    .input-data{
+    .input-data {
         font-size: 17px;
     }
 
@@ -229,6 +261,22 @@ body {
         font-weight: 500;
         font-size: 20px;
         margin-top: 3%;
+    }
+
+    .social {
+        font-size: 40px;
+    }
+
+    .contact-td {
+        font-size: 18px;
+    }
+
+    .copyright>h5 {
+        font-size: 14px;
+    }
+
+    .copyright>h4 {
+        font-size: 16px;
     }
 }
 
@@ -291,6 +339,22 @@ body {
         font-size: 20px;
         margin-top: 3%;
     }
+
+    .social {
+        font-size: 60px;
+    }
+
+    .contact-td {
+        font-size: 23px;
+    }
+
+    .copyright>h5 {
+        font-size: 16px;
+    }
+
+    .copyright>h4 {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -352,6 +416,22 @@ body {
         font-weight: 500;
         font-size: 20px;
         margin-top: 3%;
+    }
+
+    .social {
+        font-size: 70px;
+    }
+
+    .contact-td {
+        font-size: 28px;
+    }
+
+    .copyright>h5 {
+        font-size: 18px;
+    }
+
+    .copyright>h4 {
+        font-size: 20px;
     }
 }
 
@@ -647,7 +727,6 @@ footer {
 
 .contact-td {
     border: 1px solid greenyellow;
-    font-size: larger;
     text-align: center;
 }
 
@@ -657,13 +736,16 @@ footer {
     color: white;
 }
 
+.copyright>p{
+    color: black;
+}
+
 .buy {
     padding-left: 35%;
 }
 
 .social {
     border: 1px solid greenyellow;
-    font-size: 400%;
     text-align: center;
     color: #007bff;
 }
@@ -676,6 +758,7 @@ footer {
 .bottom-bar {
     background-color: black;
     color: white;
+    margin: 0 auto;
 }
 
 .shop {
